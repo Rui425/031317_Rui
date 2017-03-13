@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: 031317_Rui
+  host: 03132017Rui
+  disk_quota: 1024M
+  services:
+  - 031317_Rui-cloudantNoSQLDB
